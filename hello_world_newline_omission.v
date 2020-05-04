@@ -1,2 +1,3 @@
-print('Goodbye, World!')
-
+fn main() {
+	print('Goodbye, World!')
+}

@@ -4,7 +4,7 @@ import os
 
 fn main() {
     t := time.now()
-    s := t.calc_unix()
+    s := t.unix_time()
     rand.seed(s)
 
     num := rand.next(10) // Random number
